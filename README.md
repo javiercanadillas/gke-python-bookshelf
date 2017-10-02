@@ -60,7 +60,7 @@ Alternatively, you can use make:
 
 Or use the new Google Cloud Container Builder:
 
-    gcloud container builds submit --config cloudbuild.yaml --no-source
+    gcloud container builds submit --tag gcr.io/<your-project-id>/bookshelf .
 
 ## Deploy the bookshelf frontend
 
